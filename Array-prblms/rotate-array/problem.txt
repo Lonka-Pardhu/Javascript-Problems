@@ -1,0 +1,36 @@
+Problem: Rotate Array
+
+You are given an array of integers and a non-negative integer k. Write a function to rotate the elements of the array to the right by k steps. The rotation should be in-place, meaning you should modify the original array without using extra space.
+
+Function Signature:
+
+function rotateArray(numsArr, k) {
+    // Your code here
+}
+
+Output:
+The modified array after rotating the elements to the right by k steps.
+
+Test Case-1:
+rotateArray([1, 2, 3, 4, 5], 2);
+// Expected Output: [4, 5, 1, 2, 3]
+// Explanation: Rotate the array to the right by 2 steps: [1, 2, 3, 4, 5] -> [5, 1, 2, 3, 4] -> [4, 5, 1, 2, 3].
+
+Test Case-2:
+rotateArray([-1, -100, 3, 99], 2);
+// Expected Output: [3, 99, -1, -100]
+// Explanation: Rotate the array to the right by 2 steps: [-1, -100, 3, 99] -> [99, -1, -100, 3] -> [3, 99, -1, -100].
+
+Test Case-3:
+rotateArray([1, 2, 3, 4, 5], 0);
+// Expected Output: [1, 2, 3, 4, 5]
+// Explanation: No rotation is performed as k is 0.
+
+
+NOTE:
+
+The rotation should be in-place, meaning you should modify the original array.
+
+The rotation steps (k) may exceed the length of the array, in which case the array should rotate as if the steps were taken modulo the array length.
+
+You are not required to return anything explicitly; the function should modify the input array.

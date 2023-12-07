@@ -1,0 +1,38 @@
+
+Problem: Find Two Numbers Summing to Target
+
+Given an array of integers and a target sum, write a function that finds two distinct numbers in the array whose sum is equal to the target sum. It is guaranteed that there is exactly one solution. Return the indices of the two numbers in the form of an array.
+
+function signature:
+
+function findTwoNumbers(arr, targetSum) {
+    // Your code here
+}
+
+
+Output:
+An array containing two distinct integers, the indices of the two numbers whose sum is equal to targetSum. The indices should be in ascending order.
+
+
+Test Case 1:
+findTwoNumbers([2, 7, 11, 15], 9);
+// Expected Output: [0, 1]
+// Explanation: The numbers at indices 0 and 1 (2 + 7) add up to the target sum 9.
+
+Test Case 2:
+findTwoNumbers([3, 2, 4], 6);
+// Expected Output: [1, 2]
+// Explanation: The numbers at indices 1 and 2 (2 + 4) add up to the target sum 6.
+
+Test Case 3:
+findTwoNumbers([3, 3], 6);
+// Expected Output: [0, 1]
+// Explanation: The numbers at indices 0 and 1 (3 + 3) add up to the target sum 6.
+
+
+Note:
+
+Each input array will have exactly one solution.
+The array may contain duplicate elements, but the solution should consist of distinct numbers.
+Indices are zero-based.
+You are not allowed to use the same element twice.

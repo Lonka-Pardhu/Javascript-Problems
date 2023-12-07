@@ -1,0 +1,44 @@
+
+Problem: Object Values Sum - Calculate the Sum of Numeric Values
+
+You are given an object where the values are numeric. Write a function to calculate and return the sum of all the numeric values in the given object.
+
+Function Signature:
+function calculateObjectValuesSum(obj) {
+    // Your code here
+}
+
+
+Output:
+The sum of all numeric values present in the object. 
+
+Test Case-1:
+const expenses = { rent: 1000, groceries: 300, utilities: 200, entertainment: 150 };
+calculateObjectValuesSum(expenses);
+// Expected Output: 1650
+// Explanation: The sum of all numeric values (1000 + 300 + 200 + 150) is 1650.
+
+
+
+Test Case-2:
+const scores = { math: 95, english: 88, science: 92 };
+calculateObjectValuesSum(scores);
+// Expected Output: 275
+// Explanation: The sum of all numeric values (95 + 88 + 92) is 275.
+
+
+
+Test Case-3:
+const emptyObject = {};
+calculateObjectValuesSum(emptyObject);
+// Expected Output: 0
+// Explanation: The object is empty, so the sum is 0.
+
+
+
+
+NOTE:
+
+The function should handle empty objects by returning 0.
+
+All values in the object are assumed to be numeric.

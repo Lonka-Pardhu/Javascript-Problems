@@ -1,0 +1,47 @@
+Problem: Object Properties - Print Property Names
+
+You are given an object. Write a function that prints all the property names of the given object.
+
+Function Signature:
+
+function printObjectProperties(obj) {
+    // Your code here
+}
+
+
+Output:
+Print all the property names of the given object.  
+
+Test Case-1:
+const person = { name: 'John', age: 30, occupation: 'Engineer' };
+printObjectProperties(person);
+// Expected Output:
+// name
+// age
+// occupation
+// Explanation: The function should print each property name on a new line.
+
+
+Test Case-2:
+const car = { make: 'Toyota', model: 'Camry', year: 2022 };
+printObjectProperties(car);
+// Expected Output:
+// make
+// model
+// year
+// Explanation: The function should print each property name on a new line.
+
+
+Test Case-3:
+const emptyObject = {};
+printObjectProperties(emptyObject);
+// Expected Output:
+// Explanation: The function should handle an empty object by not printing anything.
+
+
+
+NOTE:
+
+The order of property names in the output does not matter.
+
+If the object is empty, the function should not print anything.

@@ -1,0 +1,39 @@
+
+Problem: Array Intersection - Find Common Elements
+
+You are given two arrays of integers. Write a function to find and return the intersection of the two arrays, i.e., the common elements present in both arrays
+
+Function Signature:
+function arrCommonEle(arr1, arr2) {
+    // Your code here
+}
+
+Output:
+An array containing the common elements present in both arr1 and arr2.
+
+Test Case-1:
+arrCommonEle([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]);
+// Expected Output: [3, 4, 5]
+// Explanation: The common elements between the two arrays are 3, 4, and 5.
+
+
+Test Case-2:
+arrCommonEle([1, 2, 3], [4, 5, 6]);
+// Expected Output: []
+// Explanation: There are no common elements between the two arrays.
+
+
+Test Case-3:
+arrCommonEle([1, 2, 3], [1, 2, 3]);
+// Expected Output: [1, 2, 3]
+// Explanation: Both arrays are identical, so the common elements are the elements of the arrays themselves.
+
+
+
+NOTE:
+
+The order of elements in the output array does not matter.
+
+If there are no common elements, the function should return an empty array.
+
+You are not required to modify the original arrays; return a new array containing the common elements.

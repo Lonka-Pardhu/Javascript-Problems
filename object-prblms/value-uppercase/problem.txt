@@ -1,0 +1,50 @@
+Problem: Object Manipulation - Uppercase Strings
+You are tasked with writing a function that takes an object as input and returns a new object with the same properties but with all string values converted to uppercase.
+
+Function Signature:
+function uppercaseStrings(obj) {
+    // Your code here
+}
+
+Input:
+
+obj: An object containing various properties with values of different types (string, number, etc.).
+
+
+Output:
+Returns a new object with the same properties as the input, but with all string values converted to uppercase.
+
+Test Case-1:
+```javascript
+const inputObj = { name: 'John', age: 25, city: 'New York' };
+const resultObj = uppercaseStrings(inputObj);
+
+console.log(resultObj);
+// Expected Output: { name: 'JOHN', age: 25, city: 'NEW YORK' }
+```
+
+
+
+Test Case-2:
+```javascript
+const inputObj = { country: 'Canada', population: 38000000, capital: 'Ottawa' };
+const resultObj = uppercaseStrings(inputObj);
+
+console.log(resultObj);
+// Expected Output: { country: 'CANADA', population: 38000000, capital: 'OTTAWA' }
+```
+
+
+
+Test Case-3:
+```javascript
+const inputObj = { brand: 'Apple', model: 'iPhone', price: 999.99 };
+const resultObj = uppercaseStrings(inputObj);
+
+console.log(resultObj);
+// Expected Output: { brand: 'APPLE', model: 'IPHONE', price: 999.99 }
+```
+
+
+NOTE:
+The function should preserve the non-string values in the input object while converting only the string values to uppercase.

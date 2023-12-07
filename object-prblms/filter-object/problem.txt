@@ -1,0 +1,39 @@
+Problem: Object Filtering - Filter Key-Value Pairs based on a Condition
+
+You are given an object with key-value pairs. Write a function that filters out key-value pairs based on a specified condition and returns a new object with the filtered pairs.
+
+Function Signature:
+function filterObject(obj, condition) {
+    // Your code here
+}
+
+
+Output:
+A new object containing only the key-value pairs that satisfy the specified condition. 
+
+Test Case-1:
+const studentGrades = { math: 95, english: 88, science: 92 };
+const passingGrades = filterObject(studentGrades, (key, value) => value >= 90);
+// Expected Output: { math: 95, science: 92 }
+// Explanation: Only the key-value pairs with values greater than or equal to 90 are included.
+
+
+
+Test Case-2:
+const inventory = { apples: 20, oranges: 15, bananas: 30 };
+const lowStockItems = filterObject(inventory, (key, value) => value < 25);
+// Expected Output: { apples: 20, oranges: 15 }
+// Explanation: Only the key-value pairs with values less than 25 are included.
+
+
+Test Case-3:
+const ages = { alice: 25, bob: 30, charlie: 22 };
+const adults = filterObject(ages, (key, value) => value >= 18);
+// Expected Output: { alice: 25, bob: 30, charlie: 22 }
+// Explanation: All key-value pairs are included since all values are greater than or equal to 18.
+
+
+
+NOTE:
+
+The condition function should take a key-value pair and return true to include it or false to exclude it from the filtered object.

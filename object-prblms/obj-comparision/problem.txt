@@ -1,0 +1,45 @@
+Problem: Object Comparison
+You are tasked with writing a function to compare two objects and determine if they have the same set of properties and values. Your goal is to identify whether the objects are structurally identical.
+
+Function Signature:
+function areObjectsEqual(obj1, obj2) {
+    // Your code here
+}
+
+Input:
+obj1: The first object for comparison.
+obj2: The second object for comparison.
+
+Output:
+Returns true if the objects are equal, and false otherwise. 
+
+Test Case-1:
+const obj1 = { name: 'John', age: 25, city: 'New York' };
+const obj2 = { name: 'John', age: 25, city: 'New York' };
+console.log(areObjectsEqual(obj1, obj2));
+// Expected Output: true
+```
+
+Test Case-2:
+const obj1 = { name: 'Alice', age: 30, country: 'Canada' };
+const obj2 = { name: 'Alice', age: 30, country: 'Canada' };
+console.log(areObjectsEqual(obj1, obj2));
+// Expected Output: true
+```
+
+Test Case-3:
+const obj1 = { brand: 'Apple', model: 'iPhone' };
+const obj2 = { brand: 'Samsung', model: 'Galaxy' };
+console.log(areObjectsEqual(obj1, obj2));
+// Expected Output: false
+```
+Test Case-4:
+const obj1 = { color: 'red', size: 'small' };
+const obj2 = { size: 'small', color: 'red' };
+console.log(areObjectsEqual(obj1, obj2));
+// Expected Output: true
+```
+
+
+NOTE:
+The order of properties in the objects should not affect the result. If two objects have the same set of properties with the same values, they are considered equal regardless of the order..
