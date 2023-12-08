@@ -8,16 +8,17 @@ function calculateObjectValuesSum(obj) {
     // Your code here
 }
 
+input: object with key pair values containing numbers as values;
 
 Output:
 The sum of all numeric values present in the object. 
+
 
 Test Case-1:
 const expenses = { rent: 1000, groceries: 300, utilities: 200, entertainment: 150 };
 calculateObjectValuesSum(expenses);
 // Expected Output: 1650
 // Explanation: The sum of all numeric values (1000 + 300 + 200 + 150) is 1650.
-
 
 
 Test Case-2:

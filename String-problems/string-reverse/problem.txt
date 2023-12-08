@@ -1,0 +1,55 @@
+Problem: Reverse Words in a Sentence
+You are given the task of writing a function that takes a sentence as input and returns a new sentence with the order of words reversed.
+
+Function Signature:
+function reverseWords(sentence) {
+    // Your code here
+}
+
+Input:
+sentence: A string representing a sentence. The sentence may contain letters, digits, spaces, and punctuation.
+
+
+Output:
+Returns a new string with the order of words reversed.
+
+Test Case-1:
+const inputSentence = "Hello World";
+const resultSentence = reverseWords(inputSentence);
+
+console.log(resultSentence);
+// Expected Output: "World Hello"
+```
+
+
+Test Case-2:
+const inputSentence = "The quick brown fox";
+const resultSentence = reverseWords(inputSentence);
+
+console.log(resultSentence);
+// Expected Output: "fox brown quick The"
+```
+
+
+Test Case-3:
+const inputSentence = "123 456 789";
+const resultSentence = reverseWords(inputSentence);
+
+console.log(resultSentence);
+// Expected Output: "789 456 123"
+```
+
+
+Test Case-3:
+const inputSentence = "Hello, how are you?";
+const resultSentence = reverseWords(inputSentence);
+
+console.log(resultSentence);
+// Expected Output: "you? are how Hello,"
+```
+
+
+NOTE:
+Words in the sentence are defined as sequences of characters separated by spaces.
+
+The order of words in the result should be reversed while maintaining the order of characters within each word.

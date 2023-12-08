@@ -1,13 +1,13 @@
-
 Problem: Array Filter - Remove Even Numbers
-
 You are given an array of integers. Write a function to filter out all the even numbers from the array, returning a new array with only the odd numbers.
 
 Function Signature:
-
 function filterEvenNumbers(numsArr) {
     // Your code here
 }
+
+input:
+An array containing random numbers (can be both even and odd);
 
 Output:
 A new array containing only the odd numbers from the input array.   

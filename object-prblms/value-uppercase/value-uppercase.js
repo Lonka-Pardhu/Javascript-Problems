@@ -1,3 +1,0 @@
-function uppercaseStrings(obj) {
-
-}
