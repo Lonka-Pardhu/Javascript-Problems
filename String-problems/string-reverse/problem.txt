@@ -40,7 +40,7 @@ console.log(resultSentence);
 ```
 
 
-Test Case-3:
+Test Case-4:
 const inputSentence = "Hello, how are you?";
 const resultSentence = reverseWords(inputSentence);
 

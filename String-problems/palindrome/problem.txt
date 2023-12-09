@@ -1,0 +1,59 @@
+
+Problem: String Palindrome Check
+You are tasked with creating a function to determine whether a given string is a palindrome. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward.
+
+Function Signature:
+function isPalindrome(str) {
+    // Your code here
+}
+
+
+Input:
+str: A string that may contain letters, digits, spaces, or punctuation.
+
+
+Output:
+Returns true if the input string is a palindrome, and false otherwise.
+
+Test Case-1:
+const inputStr = "level";
+const result = isPalindrome(inputStr);
+
+console.log(result);
+// Expected Output: true
+```
+
+
+Test Case-2:
+const inputStr = "hello";
+const result = isPalindrome(inputStr);
+
+console.log(result);
+// Expected Output: false
+```
+
+
+Test Case-3:
+const inputStr = "A man, a plan, a canal, Panama";
+const result = isPalindrome(inputStr);
+
+console.log(result);
+// Expected Output: true
+```
+
+
+Test Case-4:
+const inputStr = "12321";
+const result = isPalindrome(inputStr);
+
+console.log(result);
+// Expected Output: true
+```
+
+
+NOTE:
+Palindrome checking should be case-insensitive and should ignore spaces, punctuation, or special characters.
+
+Consider all alphanumeric characters in the input string.
+
+The function should return true if the given string is a palindrome and false otherwise.
