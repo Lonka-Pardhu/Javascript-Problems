@@ -1,0 +1,36 @@
+Problem: Count Vowels and Consonants
+You are tasked with writing a function that takes a string as input and returns an object containing the count of vowels and consonants in the given string. Consider only English alphabets for this problem. The function should be case-insensitive, meaning 'a' and 'A' are considered the same.
+
+Function Signature:
+function countVowelsAndConsonants(str) {
+    // Your code here
+}
+
+
+Input:
+A string containing alphabets (both lowercase and uppercase).
+
+
+Output:
+An object with two properties:
+vowels: The count of vowels in the string.
+consonants: The count of consonants in the string.
+
+Test Case-1:
+const inputStr1 = "Hello World";
+console.log(countVowelsAndConsonants(inputStr1));
+// Expected Output: { vowels: 3, consonants: 7 }
+
+
+
+Test Case-2:
+const inputStr2 = "Programming";
+console.log(countVowelsAndConsonants(inputStr2));
+// Expected Output: { vowels: 4, consonants: 8 }
+
+
+
+Test Case-3:
+const inputStr3 = "aeIOU";
+console.log(countVowelsAndConsonants(inputStr3));
+// Expected Output: { vowels: 5, consonants: 0 }
