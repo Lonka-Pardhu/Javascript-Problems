@@ -1,0 +1,54 @@
+Problem: String Compression
+You are given a string consisting of alphabetical characters. Your task is to implement a basic string compression algorithm that counts consecutive repeated characters and replaces them with the character followed by the count.
+
+Function Signature:
+function compressString(str) {
+    // Your code here
+}
+
+
+Input:
+The function takes a string str containing alphabetical characters (both lowercase and uppercase).
+
+
+Output:
+The function should return a compressed version of the input string based on the algorithm described above.
+
+
+Test Case-1:
+const inputStr1 = "aaaabbcccc";
+console.log(compressString(inputStr1));
+// Output: "a4b2c4"
+
+
+Test Case-2:
+const inputStr2 = "abcde";
+console.log(compressString(inputStr2));
+// Output: "abcde"
+// All characters appear only once, so the output should be the same as the input.
+
+
+Test Case-3:
+const inputStr3 = "AAaaBbCC";
+console.log(compressString(inputStr3));
+// Output: "A2a2BbC2"
+// Count should be case-insensitive, and the output maintains the order of appearance.
+
+
+Test Case-4:
+const inputStr4 = "";
+console.log(compressString(inputStr4));
+// Output: ""
+// The output for an empty string should also be an empty string.
+
+
+Test Case-5:
+const inputStr5 = "$$###%%%";
+console.log(compressString(inputStr5));
+// Output: "$2#3%3"
+// Special characters should also be considered in the compression.
+
+
+NOTE:
+
+The output should contain each character followed by the count of consecutive occurrences. If a character appears only once, the count should not be added. The output should maintain the order of characters as they appear in the input string.
